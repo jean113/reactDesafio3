@@ -1,1 +1,11 @@
-// TODO
+.logo
+{
+    margin:0 auto;
+    padding: 2rem 0;
+    padding-left: 10rem;
+
+    &:hover
+    {
+        cursor:pointer;
+    }
+}

@@ -1,1 +1,93 @@
-// TODO
+.postContainer
+{
+    width: 700px;
+    height: 108px;
+    left:370px;
+    top:170px; 
+}
+
+.post
+{
+    max-width: 700px;
+    margin-top: 1.5rem;
+
+    a
+    {
+        display: block;
+        text-align: justify;
+
+        strong
+        {
+            display:block;
+            font-weight: 700;
+            font-size: 1.8rem;
+            line-height: 2.1rem;
+        }
+
+        .subtitle
+        {
+            display: block;
+            font-weight: 400;
+            font-size: 1.1rem;
+            line-height: 1.3rem;
+            color: var(--body);
+            margin-top: 0.5rem;
+        }
+
+        div
+        {
+            margin-top: 1.5rem;
+
+            .icone
+            {
+                margin-right: 0.5rem;
+                color: var(--info)
+            }
+
+            time
+            {
+                font-weight: 400;
+                font-size: 0.8rem;
+                line-height: 1.1rem;
+                margin-right: 1.6rem;
+                color: var(--info)
+            }
+
+            span
+            {
+                font-weight: 400;
+                font-size: 0.8rem;
+                line-height: 1.1rem;
+                margin-right: 1.6rem;
+                color: var(--info)
+            }
+        }
+
+        
+    }
+}
+
+.botao
+{
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    text-align: justify;
+    
+    margin-top: 4rem;
+    color: var(--highlight);
+
+    background: var(--background);
+
+    padding: 0.5rem;
+
+    border: 0;
+
+    transition: color 0.5s;
+
+    &:hover
+    {
+        cursor: pointer;
+        color: var(--highlight-bright);
+    }
+}
