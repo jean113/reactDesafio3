@@ -101,7 +101,7 @@ interface HomeProps {
  {
     const prismic = getPrismicClient({});
 
-    const postsResponse = await prismic.getByType('posts', {pageSize: 1});
+    const postsResponse = await prismic.getByType('posts');
 
     const postsPagination = {
       next_page: postsResponse.next_page,
